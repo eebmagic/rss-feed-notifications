@@ -24,8 +24,11 @@ There are several config files that you will have to add to this directory to ge
 
 
 ## Running:
-Run the `index.js` file with node.
-> node index.js
+Run the `index.js` file with node:
+
+```properties
+node index.js
+```
 
 You'll probably want to set this command to run automatically on whatever device you want.
 For example with a [crontask](https://www.tutorialspoint.com/unix_commands/crontab.htm)
