@@ -21,3 +21,11 @@ There are several config files that you will have to add to this directory to ge
     - The url to pull xml data for the RSS feed from.
     - You should be able to find this wherever you found the source for the feed.
     - When opened in a browser this should probably show up as totally unformatted xml text.
+
+
+## Running:
+Run the `index.js` file with node.
+> node index.js
+
+You'll probably want to set this command to run automatically on whatever device you want.
+For example with a [crontask](https://www.tutorialspoint.com/unix_commands/crontab.htm)
