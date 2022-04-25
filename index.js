@@ -5,7 +5,6 @@ const Parser = require('rss-parser');
 const parser = new Parser();
 
 const username = fs.readFileSync('USERNAME', 'utf8').trim();
-const password = fs.readFileSync('PASSWORD', 'utf8').trim();
 const gmailPass = fs.readFileSync('GMAIL_APP_PASS', 'utf8').trim();
 const targetEmail = fs.readFileSync('TARGET_EMAIL', 'utf8').trim();
 const rssURL = fs.readFileSync('RSS_SOURCE_URL', 'utf8').trim();
@@ -18,7 +17,7 @@ var transporter = nodemailer.createTransport({
   }
 });
 
-const today = strftime("%a, %d %b %Y")
+const today = strftime("%a, %d %b %Y");
 // console.log(`TODAY: ${today}`);
 
 (async () => {
